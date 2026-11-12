@@ -1,0 +1,60 @@
+{
+  "metas": [
+    {
+      "id": "tt33332385",
+      "type": "series",
+      "name": "2026 · Widow's Bay",
+      "poster": "https://images.metahub.space/poster/medium/tt33332385/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt23649128",
+      "type": "series",
+      "name": "2025 · The Studio",
+      "poster": "https://images.metahub.space/poster/medium/tt23649128/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt11815682",
+      "type": "series",
+      "name": "2024 · Hacks",
+      "poster": "https://images.metahub.space/poster/medium/tt11815682/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt14452776",
+      "type": "series",
+      "name": "2023 · The Bear",
+      "poster": "https://images.metahub.space/poster/medium/tt14452776/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt10986410",
+      "type": "series",
+      "name": "2022 · Ted Lasso",
+      "poster": "https://images.metahub.space/poster/medium/tt10986410/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt10986410",
+      "type": "series",
+      "name": "2021 · Ted Lasso",
+      "poster": "https://images.metahub.space/poster/medium/tt10986410/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt3526078",
+      "type": "series",
+      "name": "2020 · Schitt's Creek",
+      "poster": "https://images.metahub.space/poster/medium/tt3526078/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt5687612",
+      "type": "series",
+      "name": "2019 · Fleabag",
+      "poster": "https://images.metahub.space/poster/medium/tt5687612/img",
+      "posterShape": "poster"
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "metas": [
+    {
+      "id": "tt30144839",
+      "type": "movie",
+      "name": "2026 · One Battle After Another",
+      "poster": "https://images.metahub.space/poster/medium/tt30144839/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt28607951",
+      "type": "movie",
+      "name": "2025 · Anora",
+      "poster": "https://images.metahub.space/poster/medium/tt28607951/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt15398776",
+      "type": "movie",
+      "name": "2024 · Oppenheimer",
+      "poster": "https://images.metahub.space/poster/medium/tt15398776/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt6710474",
+      "type": "movie",
+      "name": "2023 · Everything Everywhere All at Once",
+      "poster": "https://images.metahub.space/poster/medium/tt6710474/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt10366460",
+      "type": "movie",
+      "name": "2022 · CODA",
+      "poster": "https://images.metahub.space/poster/medium/tt10366460/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt9770150",
+      "type": "movie",
+      "name": "2021 · Nomadland",
+      "poster": "https://images.metahub.space/poster/medium/tt9770150/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt6751668",
+      "type": "movie",
+      "name": "2020 · Parasite",
+      "poster": "https://images.metahub.space/poster/medium/tt6751668/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt6966692",
+      "type": "movie",
+      "name": "2019 · Green Book",
+      "poster": "https://images.metahub.space/poster/medium/tt6966692/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt5580390",
+      "type": "movie",
+      "name": "2018 · The Shape of Water",
+      "poster": "https://images.metahub.space/poster/medium/tt5580390/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt4975722",
+      "type": "movie",
+      "name": "2017 · Moonlight",
+      "poster": "https://images.metahub.space/poster/medium/tt4975722/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt1895587",
+      "type": "movie",
+      "name": "2016 · Spotlight",
+      "poster": "https://images.metahub.space/poster/medium/tt1895587/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt2562232",
+      "type": "movie",
+      "name": "2015 · Birdman",
+      "poster": "https://images.metahub.space/poster/medium/tt2562232/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt2024544",
+      "type": "movie",
+      "name": "2014 · 12 Years a Slave",
+      "poster": "https://images.metahub.space/poster/medium/tt2024544/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt1024648",
+      "type": "movie",
+      "name": "2013 · Argo",
+      "poster": "https://images.metahub.space/poster/medium/tt1024648/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt1655442",
+      "type": "movie",
+      "name": "2012 · The Artist",
+      "poster": "https://images.metahub.space/poster/medium/tt1655442/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt1504320",
+      "type": "movie",
+      "name": "2011 · The King's Speech",
+      "poster": "https://images.metahub.space/poster/medium/tt1504320/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0887912",
+      "type": "movie",
+      "name": "2010 · The Hurt Locker",
+      "poster": "https://images.metahub.space/poster/medium/tt0887912/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt1010048",
+      "type": "movie",
+      "name": "2009 · Slumdog Millionaire",
+      "poster": "https://images.metahub.space/poster/medium/tt1010048/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0477348",
+      "type": "movie",
+      "name": "2008 · No Country for Old Men",
+      "poster": "https://images.metahub.space/poster/medium/tt0477348/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0407887",
+      "type": "movie",
+      "name": "2007 · The Departed",
+      "poster": "https://images.metahub.space/poster/medium/tt0407887/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0375679",
+      "type": "movie",
+      "name": "2006 · Crash",
+      "poster": "https://images.metahub.space/poster/medium/tt0375679/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0405159",
+      "type": "movie",
+      "name": "2005 · Million Dollar Baby",
+      "poster": "https://images.metahub.space/poster/medium/tt0405159/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0167260",
+      "type": "movie",
+      "name": "2004 · The Lord of the Rings: The Return of the King",
+      "poster": "https://images.metahub.space/poster/medium/tt0167260/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0299658",
+      "type": "movie",
+      "name": "2003 · Chicago",
+      "poster": "https://images.metahub.space/poster/medium/tt0299658/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0268978",
+      "type": "movie",
+      "name": "2002 · A Beautiful Mind",
+      "poster": "https://images.metahub.space/poster/medium/tt0268978/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0172495",
+      "type": "movie",
+      "name": "2001 · Gladiator",
+      "poster": "https://images.metahub.space/poster/medium/tt0172495/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0169547",
+      "type": "movie",
+      "name": "2000 · American Beauty",
+      "poster": "https://images.metahub.space/poster/medium/tt0169547/img",
+      "posterShape": "poster"
+    }
+  ]
+}

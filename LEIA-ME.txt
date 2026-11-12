@@ -1,0 +1,54 @@
+PREMIADOS — OSCAR & EMMY | v1.0 — Kit inicial
+=================================================
+
+OBJETIVO
+- Exibir SOMENTE vencedores, do ano mais recente ao mais antigo.
+- Oscar: Melhor Filme (uma obra por cerimônia).
+- Emmy (Primetime): Melhor Drama, Melhor Comédia, Melhor Série Limitada / Antologia.
+- Não contém indicados, links de streaming, legendas nem arquivos de vídeo.
+
+ESTADO DOS DADOS (12/11/2026)
+- Protótipo já preparado para publicar, com registros verificados de 2000–2026 (Oscar)
+  e 2019–2026 (Emmy). A expansão do Oscar pode ser feita automaticamente.
+- HISTÓRICO DO EMMY ANTERIOR A 2019 AINDA NÃO FOI INSERIDO nesta versão.
+- Para completar o Oscar desde a primeira cerimônia (1929), execute o comando
+  `python gerar_catalogos.py --importar-oscar` no seu PC conectado à internet.
+  A fonte é um dataset comunitário MIT de vencedores e indicações da Academia;
+  confira discrepâncias com oscar.org antes de publicar como base histórica completa.
+- Para completar o Emmy desde o início, inclua as linhas confirmadas no CSV
+  dados/vencedores.csv; depois execute `python gerar_catalogos.py`.
+
+INSTALAR NO STREMIO PELO GITHUB PAGES — SEM PAGAR
+1. Descompacte este ZIP e crie uma conta em https://github.com (se necessário).
+2. No GitHub, crie um repositório público, por exemplo premiados-stremio.
+3. Envie para a raiz do repositório os arquivos e pastas extraídos (incluindo docs/).
+4. GitHub: Settings > Pages > Deploy from a branch > main > /docs > Save.
+5. Quando o endereço estiver ativo, seu manifesto será:
+   https://SEUUSUARIO.github.io/premiados-stremio/manifest.json
+6. No Stremio, em Add-ons, instale pelo endereço HTTPS do manifesto.
+7. Aguarde sincronizar no celular (mesma conta).
+
+EDITAR/ADICIONAR VENCEDORES
+- Abra dados/vencedores.csv num editor que preserve UTF-8.
+- Cada linha tem categoria, ano da cerimônia, título e IMDb ID.
+- `oscar_melhor_filme`, `emmy_drama`, `emmy_comedia`, `emmy_limitada`.
+- Use o ano da CERIMÔNIA, não necessariamente o ano de estreia da obra.
+- Rode `python gerar_catalogos.py` para regenerar docs/catalog e docs/manifest.json.
+- Substitua os arquivos correspondentes no GitHub e aumente a versão em docs/manifest.json
+  quando fizer uma alteração relevante para facilitar a atualização no Stremio.
+- O mesmo programa/filme pode vencer em mais de um ano. Nesse caso o IMDb ID se repete.
+  O Stremio pode mostrar os registros repetidos de maneira diferente conforme o cliente.
+
+FONTES PARA CONFERÊNCIA
+Oscar: https://awardsdatabase.oscars.org/
+Emmy: https://www.televisionacademy.com/awards/awards-search
+IDs: https://www.imdb.com/
+Formato: https://stremio.github.io/stremio-addon-guide/step3
+Modelo estático: https://github.com/Stremio/stremio-static-addon-example
+Dataset comunitário Oscar: https://github.com/holmesredding/movieawardsdata
+
+LIMITAÇÕES
+Este kit está VALIDADO como estrutura JSON e gerador offline, mas AINDA NÃO foi
+publicado ou testado dentro do seu Stremio. A busca de capas usa um serviço de
+imagens do ecossistema Stremio e depende de ele estar acessível.
+Não é um addon oficial do Oscar, Emmy ou Stremio.

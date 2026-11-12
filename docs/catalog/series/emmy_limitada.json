@@ -1,0 +1,60 @@
+{
+  "metas": [
+    {
+      "id": "tt34385331",
+      "type": "series",
+      "name": "2026 · DTF St. Louis",
+      "poster": "https://images.metahub.space/poster/medium/tt34385331/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt31806037",
+      "type": "series",
+      "name": "2025 · Adolescence",
+      "poster": "https://images.metahub.space/poster/medium/tt31806037/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt13649112",
+      "type": "series",
+      "name": "2024 · Baby Reindeer",
+      "poster": "https://images.metahub.space/poster/medium/tt13649112/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt14403178",
+      "type": "series",
+      "name": "2023 · Beef",
+      "poster": "https://images.metahub.space/poster/medium/tt14403178/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt13406094",
+      "type": "series",
+      "name": "2022 · The White Lotus",
+      "poster": "https://images.metahub.space/poster/medium/tt13406094/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt10048342",
+      "type": "series",
+      "name": "2021 · The Queen's Gambit",
+      "poster": "https://images.metahub.space/poster/medium/tt10048342/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt7049682",
+      "type": "series",
+      "name": "2020 · Watchmen",
+      "poster": "https://images.metahub.space/poster/medium/tt7049682/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt7366338",
+      "type": "series",
+      "name": "2019 · Chernobyl",
+      "poster": "https://images.metahub.space/poster/medium/tt7366338/img",
+      "posterShape": "poster"
+    }
+  ]
+}

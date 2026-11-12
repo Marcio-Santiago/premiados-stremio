@@ -1,0 +1,52 @@
+﻿categoria,ano_cerimonia,ano_obra,titulo,imdb_id,fonte
+oscar_melhor_filme,2026,2025,One Battle After Another,tt30144839,https://www.oscars.org/oscars/ceremonies/2026
+oscar_melhor_filme,2025,2024,Anora,tt28607951,https://www.oscars.org/oscars/ceremonies/2025
+oscar_melhor_filme,2024,2023,Oppenheimer,tt15398776,https://www.oscars.org/oscars/ceremonies/2024
+oscar_melhor_filme,2023,2022,Everything Everywhere All at Once,tt6710474,https://www.oscars.org/oscars/ceremonies/2023
+oscar_melhor_filme,2022,2021,CODA,tt10366460,https://www.oscars.org/oscars/ceremonies/2022
+oscar_melhor_filme,2021,2020,Nomadland,tt9770150,https://www.oscars.org/oscars/ceremonies/2021
+oscar_melhor_filme,2020,2019,Parasite,tt6751668,https://www.oscars.org/oscars/ceremonies/2020
+oscar_melhor_filme,2019,2018,Green Book,tt6966692,https://www.oscars.org/oscars/ceremonies/2019
+oscar_melhor_filme,2018,2017,The Shape of Water,tt5580390,https://www.oscars.org/oscars/ceremonies/2018
+oscar_melhor_filme,2017,2016,Moonlight,tt4975722,https://www.oscars.org/oscars/ceremonies/2017
+oscar_melhor_filme,2016,2015,Spotlight,tt1895587,https://www.oscars.org/oscars/ceremonies/2016
+oscar_melhor_filme,2015,2014,Birdman,tt2562232,https://www.oscars.org/oscars/ceremonies/2015
+oscar_melhor_filme,2014,2013,12 Years a Slave,tt2024544,https://www.oscars.org/oscars/ceremonies/2014
+oscar_melhor_filme,2013,2012,Argo,tt1024648,https://www.oscars.org/oscars/ceremonies/2013
+oscar_melhor_filme,2012,2011,The Artist,tt1655442,https://www.oscars.org/oscars/ceremonies/2012
+oscar_melhor_filme,2011,2010,The King's Speech,tt1504320,https://www.oscars.org/oscars/ceremonies/2011
+oscar_melhor_filme,2010,2009,The Hurt Locker,tt0887912,https://www.oscars.org/oscars/ceremonies/2010
+oscar_melhor_filme,2009,2008,Slumdog Millionaire,tt1010048,https://www.oscars.org/oscars/ceremonies/2009
+oscar_melhor_filme,2008,2007,No Country for Old Men,tt0477348,https://www.oscars.org/oscars/ceremonies/2008
+oscar_melhor_filme,2007,2006,The Departed,tt0407887,https://www.oscars.org/oscars/ceremonies/2007
+oscar_melhor_filme,2006,2005,Crash,tt0375679,https://www.oscars.org/oscars/ceremonies/2006
+oscar_melhor_filme,2005,2004,Million Dollar Baby,tt0405159,https://www.oscars.org/oscars/ceremonies/2005
+oscar_melhor_filme,2004,2003,The Lord of the Rings: The Return of the King,tt0167260,https://www.oscars.org/oscars/ceremonies/2004
+oscar_melhor_filme,2003,2002,Chicago,tt0299658,https://www.oscars.org/oscars/ceremonies/2003
+oscar_melhor_filme,2002,2001,A Beautiful Mind,tt0268978,https://www.oscars.org/oscars/ceremonies/2002
+oscar_melhor_filme,2001,2000,Gladiator,tt0172495,https://www.oscars.org/oscars/ceremonies/2001
+oscar_melhor_filme,2000,1999,American Beauty,tt0169547,https://www.oscars.org/oscars/ceremonies/2000
+emmy_drama,2026,,The Pitt,tt31938062,https://www.televisionacademy.com/awards/nominees-winners/2026
+emmy_drama,2025,,The Pitt,tt31938062,https://www.televisionacademy.com/awards/nominees-winners/2025
+emmy_drama,2024,,Shōgun,tt2788316,https://www.televisionacademy.com/awards/nominees-winners/2024
+emmy_drama,2023,,Succession,tt7660850,https://www.televisionacademy.com/awards/nominees-winners/2023
+emmy_drama,2022,,Succession,tt7660850,https://www.televisionacademy.com/awards/nominees-winners/2022
+emmy_drama,2021,,The Crown,tt4786824,https://www.televisionacademy.com/awards/nominees-winners/2021
+emmy_drama,2020,,Succession,tt7660850,https://www.televisionacademy.com/awards/nominees-winners/2020
+emmy_drama,2019,,Game of Thrones,tt0944947,https://www.televisionacademy.com/awards/nominees-winners/2019
+emmy_comedia,2026,,Widow's Bay,tt33332385,https://www.televisionacademy.com/awards/nominees-winners/2026
+emmy_comedia,2025,,The Studio,tt23649128,https://www.televisionacademy.com/awards/nominees-winners/2025
+emmy_comedia,2024,,Hacks,tt11815682,https://www.televisionacademy.com/awards/nominees-winners/2024
+emmy_comedia,2023,,The Bear,tt14452776,https://www.televisionacademy.com/awards/nominees-winners/2023
+emmy_comedia,2022,,Ted Lasso,tt10986410,https://www.televisionacademy.com/awards/nominees-winners/2022
+emmy_comedia,2021,,Ted Lasso,tt10986410,https://www.televisionacademy.com/awards/nominees-winners/2021
+emmy_comedia,2020,,Schitt's Creek,tt3526078,https://www.televisionacademy.com/awards/nominees-winners/2020
+emmy_comedia,2019,,Fleabag,tt5687612,https://www.televisionacademy.com/awards/nominees-winners/2019
+emmy_limitada,2026,,DTF St. Louis,tt34385331,https://www.televisionacademy.com/awards/nominees-winners/2026
+emmy_limitada,2025,,Adolescence,tt31806037,https://www.televisionacademy.com/awards/nominees-winners/2025
+emmy_limitada,2024,,Baby Reindeer,tt13649112,https://www.televisionacademy.com/awards/nominees-winners/2024
+emmy_limitada,2023,,Beef,tt14403178,https://www.televisionacademy.com/awards/nominees-winners/2023
+emmy_limitada,2022,,The White Lotus,tt13406094,https://www.televisionacademy.com/awards/nominees-winners/2022
+emmy_limitada,2021,,The Queen's Gambit,tt10048342,https://www.televisionacademy.com/awards/nominees-winners/2021
+emmy_limitada,2020,,Watchmen,tt7049682,https://www.televisionacademy.com/awards/nominees-winners/2020
+emmy_limitada,2019,,Chernobyl,tt7366338,https://www.televisionacademy.com/awards/nominees-winners/2019
