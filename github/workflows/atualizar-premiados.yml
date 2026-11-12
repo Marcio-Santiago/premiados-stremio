@@ -1,3 +1,4 @@
+../../.github/workflows/
 name: Importar vencedores históricos
 on:
   workflow_dispatch:
