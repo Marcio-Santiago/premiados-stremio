@@ -48,7 +48,7 @@ def gerar(linhas=None):
     DOCS.mkdir(exist_ok=True)
     manifest = {
        'id':'org.premiados.oscar.emmy.winners',  # não trocar: preserva instalação antiga
-       'version':'1.1.0',
+       'version':'1.1.1',
        'name':'Premiados — Oscar e Emmy',
        'description':'Vencedores das 5 categorias do Oscar e 3 do Emmy, por ano da premiação, do mais novo ao mais antigo. Não fornece vídeos.',
        'resources':['catalog'], 'types':['movie','series'],

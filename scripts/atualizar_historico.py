@@ -174,34 +174,58 @@ def consolidar(linhas,novas):
     return total
 
 
-def popular_emmy(linhas,online):
-    pend=[]; novel=[]; resolver=Resolver(linhas)
-    base=ler_csv(ROOT/'dados'/'emmy_2000_2025.csv')
-    ja={(r['categoria'],r['ano_cerimonia']) for r in linhas}
-    if online:
-        for cat,url in EMMY_PAGES.items():
-            try:
-                rows=extrair_emmy(obter(url))
-                base.extend({'categoria':cat,'ano_cerimonia':str(year),'titulo':name} for year,name,verificado in rows if year<2000 and verificado)
-                print(f'{cat}: {len(rows)} anos localizados na fonte histórica.')
-            except Exception as exc:
-                print('AVISO: extração histórica de Emmy não disponível:',exc,file=sys.stderr)
-    for r in base:
-        key=(r['categoria'],r['ano_cerimonia'])
-        if key in ja: continue
-        name=r['titulo'];year=int(r['ano_cerimonia'])
-        if r['categoria']=='emmy_limitada' and name in ('Behind the Candelabra','Game Change'):
-            pend.append(dict(categoria=r['categoria'],ano_cerimonia=str(year),titulo=name,motivo='Telefilme, não minissérie; categoria Emmy historicamente combinada'))
-            continue
-        imdb=resolver.buscar(name,year) if online else resolver.known.get(normal(name))
-        if imdb:
-            novel.append(dict(categoria=r['categoria'],ano_cerimonia=str(year),ano_obra='',titulo=name,imdb_id=imdb,
-                  fonte=(EMMY_PAGES[r['categoria']] if year<2000 else E_FONTE+str(year))))
-            ja.add(key)
-        else:
-            pend.append(dict(categoria=r['categoria'],ano_cerimonia=str(year),titulo=name,motivo='IMDb não resolvido com segurança'))
-    return novel,pend
+def popular_emmy(linhas, online):
+    """Usa base histórica auditada para 1952–1999; nunca inventa IMDb ID.
 
+    A base local evita perder épocas antigas por mudanças de layout em sites.
+    Para títulos sem identificador seguro, mantém uma pendência visível.
+    """
+    pend=[]
+    novos=[]
+    resolver=Resolver(linhas)
+    base=ler_csv(ROOT/'dados'/'emmy_2000_2025.csv')
+    caminho_historico=ROOT/'dados'/'emmy_historico_pre2000.csv'
+    if caminho_historico.exists():
+        base.extend(ler_csv(caminho_historico))
+    else:
+        print('AVISO: falta dados/emmy_historico_pre2000.csv',file=sys.stderr)
+
+    existe_ano={(r['categoria'],r['ano_cerimonia']) for r in linhas}
+    existe_exato={(r['categoria'],r['ano_cerimonia'],r['imdb_id']) for r in linhas}
+    for r in base:
+        cat=r['categoria']
+        ano=str(r['ano_cerimonia'])
+        nome=r['titulo']
+        yr=int(ano)
+        imdb=(r.get('imdb_id') or '').strip()
+        # Em 1957 havia dois prêmios gerais por duração, registrados separadamente.
+        permite_mais_uma=(cat=='emmy_comedia' and yr==1957)
+        if imdb and (cat,ano,imdb) in existe_exato:
+            continue
+        if not permite_mais_uma and (cat,ano) in existe_ano:
+            continue
+        motivo=(r.get('observacao_historica') or '')
+        # Não trocar um título histórico ambíguo por outra produção em busca automática.
+        if not imdb and yr<2000:
+            pend.append(dict(categoria=cat,ano_cerimonia=ano,titulo=nome,
+                         motivo=motivo or 'IMDb da obra premiada ainda não confirmado'))
+            continue
+        if cat=='emmy_limitada' and nome in ('Behind the Candelabra','Game Change'):
+            pend.append(dict(categoria=cat,ano_cerimonia=ano,titulo=nome,
+                motivo='Telefilme em categoria temporariamente combinada; não é uma minissérie'))
+            continue
+        if not imdb:
+            imdb=resolver.buscar(nome,yr) if online else resolver.known.get(normal(nome))
+        if not imdb:
+            pend.append(dict(categoria=cat,ano_cerimonia=ano,titulo=nome,
+                         motivo='IMDb não resolvido com segurança'))
+            continue
+        novo=dict(categoria=cat,ano_cerimonia=ano,ano_obra='',titulo=nome,imdb_id=imdb,
+                  fonte=(E_FONTE+ano if yr<2000 else E_FONTE+ano))
+        novos.append(novo)
+        existe_ano.add((cat,ano))
+        existe_exato.add((cat,ano,imdb))
+    return novos,pend
 
 def salvar_pendencias(pend):
     p=ROOT/'dados'/'pendencias.csv'
@@ -222,8 +246,8 @@ def main():
         doc=json.loads(obter(OSCARS_JSON))
         add=consolidar(rows,extrair_oscar(doc))
         print('Oscar: registros novos =',add)
-        if add<170:
-            raise RuntimeError('Importação histórica do Oscar incompleta (<170 novos). Nenhum CSV será sobrescrito.')
+        if sum(r['categoria'].startswith('oscar_') for r in rows)<170:
+            raise RuntimeError('Base histórica do Oscar incompleta (<170 registros totais). Nenhum CSV será sobrescrito.')
     extras,pend=popular_emmy(rows,opt.online)
     adicionados=consolidar(rows,extras)
     print('Emmy: registros adicionados =',adicionados)
