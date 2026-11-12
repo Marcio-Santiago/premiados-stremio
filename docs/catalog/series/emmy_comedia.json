@@ -188,6 +188,349 @@
       "name": "2000 · Will & Grace",
       "poster": "https://images.metahub.space/poster/medium/tt0157246/img",
       "posterShape": "poster"
+    },
+    {
+      "id": "tt0118254",
+      "type": "series",
+      "name": "1999 · Ally McBeal",
+      "poster": "https://images.metahub.space/poster/medium/tt0118254/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0106004",
+      "type": "series",
+      "name": "1998 · Frasier",
+      "poster": "https://images.metahub.space/poster/medium/tt0106004/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0106004",
+      "type": "series",
+      "name": "1997 · Frasier",
+      "poster": "https://images.metahub.space/poster/medium/tt0106004/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0106004",
+      "type": "series",
+      "name": "1996 · Frasier",
+      "poster": "https://images.metahub.space/poster/medium/tt0106004/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0106004",
+      "type": "series",
+      "name": "1995 · Frasier",
+      "poster": "https://images.metahub.space/poster/medium/tt0106004/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0106004",
+      "type": "series",
+      "name": "1994 · Frasier",
+      "poster": "https://images.metahub.space/poster/medium/tt0106004/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0098904",
+      "type": "series",
+      "name": "1993 · Seinfeld",
+      "poster": "https://images.metahub.space/poster/medium/tt0098904/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0094514",
+      "type": "series",
+      "name": "1992 · Murphy Brown",
+      "poster": "https://images.metahub.space/poster/medium/tt0094514/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0083399",
+      "type": "series",
+      "name": "1991 · Cheers",
+      "poster": "https://images.metahub.space/poster/medium/tt0083399/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0094514",
+      "type": "series",
+      "name": "1990 · Murphy Brown",
+      "poster": "https://images.metahub.space/poster/medium/tt0094514/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0083399",
+      "type": "series",
+      "name": "1989 · Cheers",
+      "poster": "https://images.metahub.space/poster/medium/tt0083399/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0094582",
+      "type": "series",
+      "name": "1988 · The Wonder Years",
+      "poster": "https://images.metahub.space/poster/medium/tt0094582/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0088526",
+      "type": "series",
+      "name": "1987 · The Golden Girls",
+      "poster": "https://images.metahub.space/poster/medium/tt0088526/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0088526",
+      "type": "series",
+      "name": "1986 · The Golden Girls",
+      "poster": "https://images.metahub.space/poster/medium/tt0088526/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0086687",
+      "type": "series",
+      "name": "1985 · The Cosby Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0086687/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0083399",
+      "type": "series",
+      "name": "1984 · Cheers",
+      "poster": "https://images.metahub.space/poster/medium/tt0083399/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0083399",
+      "type": "series",
+      "name": "1983 · Cheers",
+      "poster": "https://images.metahub.space/poster/medium/tt0083399/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0072472",
+      "type": "series",
+      "name": "1982 · Barney Miller",
+      "poster": "https://images.metahub.space/poster/medium/tt0072472/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0077089",
+      "type": "series",
+      "name": "1981 · Taxi",
+      "poster": "https://images.metahub.space/poster/medium/tt0077089/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0077089",
+      "type": "series",
+      "name": "1980 · Taxi",
+      "poster": "https://images.metahub.space/poster/medium/tt0077089/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0077089",
+      "type": "series",
+      "name": "1979 · Taxi",
+      "poster": "https://images.metahub.space/poster/medium/tt0077089/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0066626",
+      "type": "series",
+      "name": "1978 · All in the Family",
+      "poster": "https://images.metahub.space/poster/medium/tt0066626/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0065314",
+      "type": "series",
+      "name": "1977 · The Mary Tyler Moore Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0065314/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0065314",
+      "type": "series",
+      "name": "1976 · The Mary Tyler Moore Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0065314/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0065314",
+      "type": "series",
+      "name": "1975 · The Mary Tyler Moore Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0065314/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0068098",
+      "type": "series",
+      "name": "1974 · M*A*S*H",
+      "poster": "https://images.metahub.space/poster/medium/tt0068098/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0066626",
+      "type": "series",
+      "name": "1973 · All in the Family",
+      "poster": "https://images.metahub.space/poster/medium/tt0066626/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0066626",
+      "type": "series",
+      "name": "1972 · All in the Family",
+      "poster": "https://images.metahub.space/poster/medium/tt0066626/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0066626",
+      "type": "series",
+      "name": "1971 · All in the Family",
+      "poster": "https://images.metahub.space/poster/medium/tt0066626/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0063934",
+      "type": "series",
+      "name": "1970 · My World and Welcome to It",
+      "poster": "https://images.metahub.space/poster/medium/tt0063934/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0058805",
+      "type": "series",
+      "name": "1969 · Get Smart",
+      "poster": "https://images.metahub.space/poster/medium/tt0058805/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0058805",
+      "type": "series",
+      "name": "1968 · Get Smart",
+      "poster": "https://images.metahub.space/poster/medium/tt0058805/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0060010",
+      "type": "series",
+      "name": "1967 · The Monkees",
+      "poster": "https://images.metahub.space/poster/medium/tt0060010/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0054533",
+      "type": "series",
+      "name": "1966 · The Dick Van Dyke Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0054533/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0054533",
+      "type": "series",
+      "name": "1965 · The Dick Van Dyke Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0054533/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0054533",
+      "type": "series",
+      "name": "1964 · The Dick Van Dyke Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0054533/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0054533",
+      "type": "series",
+      "name": "1963 · The Dick Van Dyke Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0054533/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0054522",
+      "type": "series",
+      "name": "1962 · The Bob Newhart Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0054522/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0042116",
+      "type": "series",
+      "name": "1961 · The Jack Benny Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0042116/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt1199576",
+      "type": "series",
+      "name": "1960 · Art Carney Special",
+      "poster": "https://images.metahub.space/poster/medium/tt1199576/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0042116",
+      "type": "series",
+      "name": "1959 · The Jack Benny Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0042116/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0047763",
+      "type": "series",
+      "name": "1958 · The Phil Silvers Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0047763/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0046584",
+      "type": "series",
+      "name": "1957 · Caesar's Hour",
+      "poster": "https://images.metahub.space/poster/medium/tt0046584/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0047763",
+      "type": "series",
+      "name": "1957 · The Phil Silvers Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0047763/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0047763",
+      "type": "series",
+      "name": "1956 · The Phil Silvers Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0047763/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0045410",
+      "type": "series",
+      "name": "1955 · Make Room for Daddy",
+      "poster": "https://images.metahub.space/poster/medium/tt0045410/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0043208",
+      "type": "series",
+      "name": "1954 · I Love Lucy",
+      "poster": "https://images.metahub.space/poster/medium/tt0043208/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0043208",
+      "type": "series",
+      "name": "1953 · I Love Lucy",
+      "poster": "https://images.metahub.space/poster/medium/tt0043208/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt0043224",
+      "type": "series",
+      "name": "1952 · The Red Skelton Show",
+      "poster": "https://images.metahub.space/poster/medium/tt0043224/img",
+      "posterShape": "poster"
     }
   ]
 }

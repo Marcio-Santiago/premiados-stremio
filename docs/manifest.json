@@ -1,6 +1,6 @@
 {
   "id": "org.premiados.oscar.emmy.winners",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "name": "Premiados — Oscar e Emmy",
   "description": "Vencedores das 5 categorias do Oscar e 3 do Emmy, por ano da premiação, do mais novo ao mais antigo. Não fornece vídeos.",
   "resources": [
