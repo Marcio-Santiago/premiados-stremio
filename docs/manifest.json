@@ -1,8 +1,8 @@
 {
   "id": "org.premiados.oscar.emmy.winners",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "Premiados — Oscar e Emmy",
-  "description": "Somente vencedores de Melhor Filme do Oscar e das principais categorias de series do Emmy, em ordem da cerimonia mais recente para a mais antiga. Nao fornece videos.",
+  "description": "Vencedores das 5 categorias do Oscar e 3 do Emmy, por ano da premiação, do mais novo ao mais antigo. Não fornece vídeos.",
   "resources": [
     "catalog"
   ],
@@ -15,6 +15,26 @@
       "type": "movie",
       "id": "oscar_melhor_filme",
       "name": "Oscar — Melhor Filme · Vencedores"
+    },
+    {
+      "type": "movie",
+      "id": "oscar_internacional",
+      "name": "Oscar — Filme Internacional · Vencedores"
+    },
+    {
+      "type": "movie",
+      "id": "oscar_roteiro_original",
+      "name": "Oscar — Roteiro Original · Vencedores"
+    },
+    {
+      "type": "movie",
+      "id": "oscar_roteiro_adaptado",
+      "name": "Oscar — Roteiro Adaptado · Vencedores"
+    },
+    {
+      "type": "movie",
+      "id": "oscar_animacao",
+      "name": "Oscar — Animação · Vencedores"
     },
     {
       "type": "series",

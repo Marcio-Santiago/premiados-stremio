@@ -1,0 +1,25 @@
+{
+  "metas": [
+    {
+      "id": "tt31193180",
+      "type": "movie",
+      "name": "2026 · Sinners",
+      "poster": "https://images.metahub.space/poster/medium/tt31193180/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt28607951",
+      "type": "movie",
+      "name": "2025 · Anora",
+      "poster": "https://images.metahub.space/poster/medium/tt28607951/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt17009710",
+      "type": "movie",
+      "name": "2024 · Anatomy of a Fall",
+      "poster": "https://images.metahub.space/poster/medium/tt17009710/img",
+      "posterShape": "poster"
+    }
+  ]
+}

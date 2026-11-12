@@ -1,0 +1,25 @@
+{
+  "metas": [
+    {
+      "id": "tt27714581",
+      "type": "movie",
+      "name": "2026 · Sentimental Value",
+      "poster": "https://images.metahub.space/poster/medium/tt27714581/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt14961016",
+      "type": "movie",
+      "name": "2025 · I'm Still Here",
+      "poster": "https://images.metahub.space/poster/medium/tt14961016/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt7160372",
+      "type": "movie",
+      "name": "2024 · The Zone of Interest",
+      "poster": "https://images.metahub.space/poster/medium/tt7160372/img",
+      "posterShape": "poster"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "metas": [
+    {
+      "id": "tt30144839",
+      "type": "movie",
+      "name": "2026 · One Battle After Another",
+      "poster": "https://images.metahub.space/poster/medium/tt30144839/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt20215234",
+      "type": "movie",
+      "name": "2025 · Conclave",
+      "poster": "https://images.metahub.space/poster/medium/tt20215234/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt23561236",
+      "type": "movie",
+      "name": "2024 · American Fiction",
+      "poster": "https://images.metahub.space/poster/medium/tt23561236/img",
+      "posterShape": "poster"
+    }
+  ]
+}

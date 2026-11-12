@@ -1,0 +1,38 @@
+PREMIADOS — OSCAR & EMMY | ATUALIZAÇÃO DO PROTÓTIPO
+===================================================
+
+IMPORTANTE: ESTE PACOTE AINDA NÃO É O HISTÓRICO COMPLETO.
+
+Oito catálogos preparados; 118 prêmios identificados até agora e
+um importador para expandir o acervo pelos dados públicos.
+
+PASSO A PASSO SIMPLES:
+
+1. Faça backup do repositório premiados-stremio (Code > Download ZIP).
+2. Extraia o conteúdo deste pacote no Windows.
+3. No mesmo repositório, use Add file > Upload files e arraste os
+   arquivos e pastas extraídos, substituindo os arquivos antigos.
+   Importante: não crie uma pasta extra dentro do repositório.
+4. Confirme que a estrutura tem:
+       docs/manifest.json
+       docs/catalog/movie/...
+       docs/catalog/series/...
+       scripts/atualizar_historico.py
+       .github/workflows/atualizar-premiados.yml
+5. Faça Commit changes.
+6. Para importar o histórico no próprio GitHub: guia Actions >
+   Importar vencedores históricos > Run workflow > Run workflow.
+7. Confirme que a execução está verde e examine dados/pendencias.csv.
+8. O Github Pages deve continuar em main /docs. Atualize o Stremio.
+
+O addon usa o mesmo ID e o mesmo endereço do seu protótipo.
+Se faltar alguma categoria após o upload, reinicie o Stremio ou
+reinstale o manifesto da mesma URL.
+
+OBSERVAÇÃO HISTÓRICA: nos primórdios do Oscar houve duas cerimônias
+em 1930. Algumas categorias mudaram de nome ou nem sempre foram
+concedidas. No Emmy, filmes para televisão já concorreram junto
+com séries limitadas. Não misturamos automaticamente um telefilme
+com uma série que teria tipo de metadado incorreto.
+
+LEIA O README.md ANTES DE CONSIDERAR A BASE HISTÓRICA DEFINITIVA.

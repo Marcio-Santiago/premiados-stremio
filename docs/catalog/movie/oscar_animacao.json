@@ -1,0 +1,25 @@
+{
+  "metas": [
+    {
+      "id": "tt14205554",
+      "type": "movie",
+      "name": "2026 · KPop Demon Hunters",
+      "poster": "https://images.metahub.space/poster/medium/tt14205554/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt4772188",
+      "type": "movie",
+      "name": "2025 · Flow",
+      "poster": "https://images.metahub.space/poster/medium/tt4772188/img",
+      "posterShape": "poster"
+    },
+    {
+      "id": "tt6587046",
+      "type": "movie",
+      "name": "2024 · The Boy and the Heron",
+      "poster": "https://images.metahub.space/poster/medium/tt6587046/img",
+      "posterShape": "poster"
+    }
+  ]
+}
